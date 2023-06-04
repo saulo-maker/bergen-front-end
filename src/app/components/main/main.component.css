@@ -1,0 +1,39 @@
+
+.login-screen {
+    background-image: url('/assets/desktop-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    margin-bottom: 1rem;
+    border: 2px none;
+    border-radius: 2.5rem;
+    padding: 5rem;
+    background-color:#814bad;
+    box-shadow: inset;
+}
+
+.fields {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
